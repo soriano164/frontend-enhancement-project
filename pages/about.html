@@ -1,9 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>About</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Elevate</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body>
-  <h1>About Page</h1>
+
+  <div id="navbar"></div>
+
+  <section class="page-header">
+    <div class="container">
+      <span class="section-badge" data-aos="fade-down">About Us</span>
+      <h1 data-aos="fade-up">Who We Are</h1>
+      <p data-aos="fade-up">Building the future of digital experiences, one line of code at a time.</p>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="about-icon">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <h2>Our Mission</h2>
+          <p>We aim to enhance frontend development skills through practical projects using modern techniques and Git workflows.</p>
+        </div>
+        
+        <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="about-icon">
+            <i class="fas fa-eye"></i>
+          </div>
+          <h2>Our Vision</h2>
+          <p>To become a leading platform for learning modern web development, empowering students to create stunning websites.</p>
+        </div>
+        
+        <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="about-icon">
+            <i class="fas fa-heart"></i>
+          </div>
+          <h2>Our Values</h2>
+          <p>Innovation, collaboration, and continuous learning. We foster an environment where creativity thrives.</p>
+        </div>
+      </div>
+
+      <div class="about-content-block">
+        <div class="about-text" data-aos="fade-right">
+          <h2>What We Do</h2>
+          <p>This project demonstrates various frontend enhancements including responsive design, interactive components, and modern UI/UX patterns.</p>
+          <div class="about-stats">
+            <div class="about-stat">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Students</span>
+            </div>
+            <div class="about-stat">
+              <span class="stat-number">100+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="about-stat">
+              <span class="stat-number">25+</span>
+              <span class="stat-label">Countries</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual" data-aos="fade-left">
+          <div class="about-card-large">
+            <div class="about-card-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <h3>Growing Together</h3>
+            <p>Join our community of developers and start building today.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer"></div>
+
+  <script src="../assets/js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 100
+    });
+  </script>
 </body>
 </html>
