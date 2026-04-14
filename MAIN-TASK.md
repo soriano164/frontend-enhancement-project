@@ -81,21 +81,15 @@ List of features added
 ### Deliverables
 
 Each student must submit:
-
 #### GitHub Branch
-
 #### Pull Request
-
 #### Short Documentation (README update or separate file):
 
-##### Features added
-
-##### Tools used
-
-##### Challenges encountered
+Features added
+Tools used
+Challenges encountered
 
 ### Grading Rubric (100 pts)
-
 Criteria Points
 Git Usage (branching, commits, PR) 25 pts
 UI/UX Improvements 25 pts
@@ -104,21 +98,13 @@ Code Quality & Organization 15 pts
 Documentation 15 pts
 
 ### Rules & Guidelines
-
-#### Do NOT push directly to main
-
-#### Work only on your assigned branch
-
-#### Keep commits meaningful (no "update file")
-
-#### Avoid breaking existing functionality
-
-#### Test before pushing
+Do NOT push directly to main
+Work only on your assigned branch
+Keep commits meaningful (no "update file")
+Avoid breaking existing functionality
+Test before pushing
 
 #### Bonus Challenges (Optional)
-
-##### Dark mode toggle
-
-##### API integration (e.g., weather, quotes)
-
-##### Use a frontend framework (React, Vue – optional advanced)
+Dark mode toggle
+API integration (e.g., weather, quotes)
+Use a frontend framework (React, Vue – optional advanced)
